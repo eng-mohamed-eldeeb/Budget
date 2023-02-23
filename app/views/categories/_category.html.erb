@@ -6,11 +6,7 @@
     <div class="flex justify-between items-center">
       <p class="font-bold text-gray-500"><%= category.name %></p>
       <p class="font-bold">
-        $<% if category.payments.blank? %>
         <%= category.payments.inject(0) { |sum, e| sum + (e.amount) }%>
-        <% else %>
-        0
-        <% end %>
       </p>
     </div>
     <p class="text-gray-300 text-sm"><%= category.created_at.strftime("%d %b %Y") %></p>

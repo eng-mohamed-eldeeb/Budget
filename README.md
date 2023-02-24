@@ -51,6 +51,11 @@
 
 <!-- GETTING STARTED -->
 
+## Video Demo
+
+This is the video demo [link](https://www.loom.com/share/720b60198210452ca8be69329600bd86) shawing my capstone project.
+
+
 ## live demo
 [live demo linke](https://eldeeb.onrender.com/splash)
 
